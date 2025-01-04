@@ -1,7 +1,14 @@
 import React from "react";
+import HeroSection from "../components/HeroSection.jsx";
+import WelcomeSection from "../components/WelcomeSection.jsx";
 
-const page = () => {
-  return <div>page</div>;
+const Page = () => {
+  return (
+    <>
+      <HeroSection />
+      <WelcomeSection />
+    </>
+  );
 };
 
-export default page;
+export default Page;
