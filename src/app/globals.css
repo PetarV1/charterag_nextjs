@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 /* Reset CSS */
 
@@ -14,7 +13,6 @@
 body,
 body a {
   color: white;
-  font-family: "Poppins", sans-serif;
 }
 
 /* Global Styles */
@@ -49,7 +47,7 @@ header {
 }
 
 nav {
-  font: 400 1rem "Poppins", sans-serif;
+  font: 400 1rem;
   line-height: 130%;
 }
 
@@ -96,6 +94,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 25px;
   font-size: 14px;
   font-weight: 400;
   line-height: 130%;
@@ -103,4 +102,10 @@ nav {
   border-radius: 10px;
   background-color: #094371;
   text-transform: uppercase;
+}
+
+.overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+  border-radius: 10px;
+  opacity: 0.9;
 }
