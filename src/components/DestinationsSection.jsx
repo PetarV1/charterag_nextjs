@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Route from "./Route";
+import Testimonials from "./Testimonials";
 
 const routesData = [
   { title: "Party route", imgUrl: "/PartyRoute.png" },
@@ -9,11 +10,33 @@ const routesData = [
   { title: "Adventure route", imgUrl: "/AdventureRoute.png" },
 ];
 
+const testimonials = [
+  {
+    name: "Courtney Henry",
+    image: "/profile1.jpg",
+    rating: 5,
+    title: "Amazing experience",
+    text: "Lorem ipsum dolor sit amet consectetur. Sapien eget morbi aliquam ultricies est ornare.",
+  },
+  {
+    name: "John Doe",
+    image: "/profile2.jpg",
+    rating: 5,
+    title: "Excellent service",
+    text: "Eu ac lorem eleifend diam tellus magnis volutpat nulla.",
+  },
+];
+
 const DestinationsSection = () => {
   return (
-    <section className="destinations-section relative bg-[#ECFBFF]">
-      <div className="absolute top-[600px] left-0 w-full h-full">
-        <Image src="/Tekstura.svg" layout="fill" alt="Background Texture" />
+    <section className="destinations-section max-w-[1440px] w-full mx-auto relative overflow-hidden bg-[#ECFBFF]">
+      <div className="absolute top-[1418px] bottom-[600px] z-10 w-full mx-auto">
+        <Image
+          src="/Tekstura.svg"
+          layout="fill"
+          objectFit="cover"
+          alt="Background Texture"
+        />
       </div>
       <div className="container">
         <div className="flex justify-between items-center flex-col pt-[112px] pb-[60px] max-w-[714px] mx-[252px] gap-6">
@@ -27,12 +50,13 @@ const DestinationsSection = () => {
             perfect journey at sea has never been easier
           </p>
         </div>
-        <div className="pt-[60px] grid gap-y-[78px] pb-[128px]">
+        <div className="pt-[60px] grid gap-y-[78px] mb-[176px]">
           {routesData.map((route, index) => (
             <Route key={index} title={route.title} imgUrl={route.imgUrl} />
           ))}
         </div>
       </div>
+      <Testimonials />
     </section>
   );
 };
