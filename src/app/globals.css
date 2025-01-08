@@ -114,8 +114,16 @@ nav {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #ecfbff 100%);
 }
 
+/* BOX SHADOWS */
+
 .testimonialshadow {
   box-shadow: 59px 54px 22px 0px rgba(0, 0, 0, 0),
     38px 34px 21px 0px rgba(0, 0, 0, 0), 21px 19px 17px 0px rgba(0, 0, 0, 0.02),
     10px 9px 13px 0px rgba(0, 0, 0, 0.03), 2px 2px 7px 0px rgba(0, 0, 0, 0.03);
+}
+
+.paymentshadow {
+  box-shadow: 52px 47px 20px 0px rgba(0, 0, 0, 0),
+    33px 30px 18px 0px rgba(0, 0, 0, 0), 19px 17px 15px 0px rgba(0, 0, 0, 0.02),
+    8px 7px 11px 0px rgba(0, 0, 0, 0.03), 2px 2px 6px 0px rgba(0, 0, 0, 0.03);
 }

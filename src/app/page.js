@@ -2,7 +2,8 @@ import React from "react";
 import HeroSection from "../components/HeroSection.jsx";
 import WelcomeSection from "../components/WelcomeSection.jsx";
 import DestinationsSection from "../components/DestinationsSection.jsx";
-import Image from "next/image";
+import TripSection from "@/components/TripSection.jsx";
+import PaymentSection from "@/components/PaymentSection.jsx";
 
 const Page = () => {
   return (
@@ -10,6 +11,8 @@ const Page = () => {
       <HeroSection />
       <WelcomeSection />
       <DestinationsSection />
+      <TripSection />
+      <PaymentSection />
     </>
   );
 };

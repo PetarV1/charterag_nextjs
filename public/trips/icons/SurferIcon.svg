@@ -1,0 +1,17 @@
+<svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon" clip-path="url(#clip0_1_1463)">
+<g id="Icon_2">
+<ellipse id="Oval" cx="7.83015" cy="4.41714" rx="2.83503" ry="2.80337" stroke="#062949" stroke-width="1.01272" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape" d="M12.8894 16.0154C12.1635 15.5284 11.5448 14.901 11.0707 14.1711V24.3166C11.0707 25.2013 10.3454 25.9185 9.45067 25.9185C8.55596 25.9185 7.83065 25.2013 7.83065 24.3166C7.83065 25.2013 7.10535 25.9185 6.21064 25.9185C5.31593 25.9185 4.59062 25.2013 4.59062 24.3166V17.1058C4.59062 17.9905 3.86531 18.7077 2.9706 18.7077C2.07589 18.7077 1.35059 17.9905 1.35059 17.1058V13.902C1.35059 11.2478 3.5265 9.09619 6.21064 9.09619H9.07267C10.4541 9.09744 11.7697 9.67995 12.6907 10.6981" stroke="#062949" stroke-width="1.01272" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" d="M4.58887 17.1049V13.9019" stroke="#062949" stroke-width="1.01272" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_3" fill-rule="evenodd" clip-rule="evenodd" d="M20.2651 2.29691C20.5683 2.0384 21.0172 2.0384 21.3203 2.29691C24.1769 4.84266 25.7604 8.49933 25.6522 12.3004C25.5863 16.5419 24.895 20.7512 23.6002 24.7954C23.3877 25.462 22.7626 25.9154 22.0558 25.9157H19.5253C18.8185 25.9154 18.1934 25.462 17.9809 24.7954C16.6861 20.7512 15.9949 16.5419 15.9289 12.3004C15.8222 8.4987 17.4072 4.84204 20.2651 2.29691V2.29691Z" stroke="#062949" stroke-width="1.01272" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_4" d="M16.0664 15.3666L24.6148 6.91357" stroke="#062949" stroke-width="1.01272" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_5" d="M17.0107 21.2431L25.6467 12.7036" stroke="#062949" stroke-width="1.01272" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_1463">
+<rect width="26" height="26" fill="white" transform="translate(0 0.263184)"/>
+</clipPath>
+</defs>
+</svg>
