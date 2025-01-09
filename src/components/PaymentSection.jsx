@@ -21,7 +21,7 @@ const tripPackage2 = [
 
 const PaymentSection = () => {
   return (
-    <section className="pt-14 pb-14 bg-[#ECFBFF] ">
+    <section className="pt-14 pb-28 bg-[#ECFBFF] ">
       <div className=" max-w-[914px] mx-auto">
         <div className="flex flex-col items-center gap-6 width-[445px] mx-[234.5px]">
           <div className="welcome-text">Payment</div>
@@ -43,7 +43,7 @@ const PaymentSection = () => {
             </h4>
             <div className="flex flex-col justify-center items-start gap-[12.174px] pt-[23px]">
               {tripPackage.map((item, index) => (
-                <div className="flex gap-[6px] items-center">
+                <div key={index} className="flex gap-[6px] items-center">
                   <Image
                     height={20.87}
                     width={20.87}
@@ -64,7 +64,7 @@ const PaymentSection = () => {
             </h4>
             <div className="flex flex-col justify-center items-start gap-[12.174px] pt-[23px]">
               {tripPackage2.map((item, index) => (
-                <div className="flex gap-[6px] items-center">
+                <div key={index} className="flex gap-[6px] items-center">
                   <Image
                     height={20.87}
                     width={20.87}

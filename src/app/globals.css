@@ -127,3 +127,38 @@ nav {
     33px 30px 18px 0px rgba(0, 0, 0, 0), 19px 17px 15px 0px rgba(0, 0, 0, 0.02),
     8px 7px 11px 0px rgba(0, 0, 0, 0.03), 2px 2px 6px 0px rgba(0, 0, 0, 0.03);
 }
+
+.aboutpaymentshadow {
+  box-shadow: 2px 2px 6px 0px rgba(72, 75, 87, 0.06),
+    16px 16px 32px 0px rgba(92, 108, 123, 0.1);
+}
+
+/*Social media shadows*/
+
+.midphotoshadow {
+  box-shadow: -31.55px 71.999px 21.842px 0px rgba(0, 0, 0, 0),
+    -20.224px 46.112px 20.224px 0px rgba(0, 0, 0, 0.01),
+    -11.326px 25.887px 16.988px 0px rgba(0, 0, 0, 0.03),
+    -4.854px 11.326px 12.944px 0px rgba(0, 0, 0, 0.05),
+    -1.618px 3.236px 7.281px 0px rgba(0, 0, 0, 0.06);
+}
+
+.leftphotoshadow {
+  box-shadow: -46.921px 105.976px 32.359px 0px rgba(0, 0, 0, 0),
+    -29.932px 67.954px 29.932px 0px rgba(0, 0, 0, 0.01),
+    -16.988px 38.022px 25.078px 0px rgba(0, 0, 0, 0.05),
+    -7.281px 16.988px 18.606px 0px rgba(0, 0, 0, 0.09),
+    -1.618px 4.045px 10.517px 0px rgba(0, 0, 0, 0.1);
+}
+
+.rightphotoshadow {
+  box-shadow: -24.269px 55.01px 16.988px 0px rgba(0, 0, 0, 0),
+    -15.371px 34.786px 15.371px 0px rgba(0, 0, 0, 0.01),
+    -8.899px 19.415px 12.944px 0px rgba(0, 0, 0, 0.03),
+    -4.045px 8.899px 9.708px 0px rgba(0, 0, 0, 0.05),
+    -0.809px 2.427px 5.663px 0px rgba(0, 0, 0, 0.06);
+}
+
+.socialmediabtnshadow {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
