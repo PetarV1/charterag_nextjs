@@ -13,14 +13,14 @@ const TripSection = () => {
     "/trips/trip8.png",
   ];
   return (
-    <section className="pt-28 pb-14 bg-[#ECFBFF]">
+    <section className="pt-28 pb-14 bg-background">
       <div className="container">
         <div className="flex flex-col items-center gap-6 mx-[246px]">
-          <h2 className="text-[46px] h-[90px] font-semibold leading-none text-[#062949] text-center">
+          <h2 className="text-[46px] h-[90px] font-semibold leading-none text-greenVogue950 text-center">
             Come live
             <br /> your best life
           </h2>
-          <p className="text-center text-[#062949] leading-[130%] text-base font-normal">
+          <p className="text-center text-greenVogue950 leading-[130%] text-base font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
             libero risus semper habitant arcu eget. Et integer facilisi eget
             diam.
@@ -48,11 +48,11 @@ const TripSection = () => {
                 alt="BoatIcon"
                 src="/trips/icons/BoatIcon.svg"
               />
-              <h4 className="text-[#062949] leading-none text-2xl font-medium">
+              <h4 className="text-greenVogue950 leading-none text-2xl font-medium">
                 A trip like no other
               </h4>
             </div>
-            <p className="text-normal text-[#062949] h-[41px] leading-[130%] font-normal">
+            <p className="text-normal text-greenVogue950 h-[41px] leading-[130%] font-normal">
               Spend unforgettable 7 days at sea with your crew at your own pace
             </p>
           </div>
@@ -63,13 +63,13 @@ const TripSection = () => {
                 height={26}
                 width={26}
                 alt="BoatIcon"
-                src="/trips/icons/BoatIcon.svg"
+                src="/trips/icons/SurferIcon.svg"
               />
-              <h4 className="text-[#062949] leading-none text-2xl font-medium">
+              <h4 className="text-greenVogue950 leading-none text-2xl font-medium">
                 Active vacation
               </h4>
             </div>
-            <p className="text-normal text-[#062949] h-[41px] leading-[130%] font-normal">
+            <p className="text-normal text-greenVogue950 h-[41px] leading-[130%] font-normal">
               Indulge yourself in dozen of parties and activities on your trip
             </p>
           </div>
@@ -80,13 +80,13 @@ const TripSection = () => {
                 height={26}
                 width={26}
                 alt="BoatIcon"
-                src="/trips/icons/BoatIcon.svg"
+                src="/trips/icons/DrinkIcon.svg"
               />
-              <h4 className="text-[#062949] leading-none text-2xl font-medium">
+              <h4 className="text-greenVogue950 leading-none text-2xl font-medium">
                 Bonding
               </h4>
             </div>
-            <p className="text-normal text-[#062949] h-[41px] leading-[130%] font-normal">
+            <p className="text-normal text-greenVogue950 h-[41px] leading-[130%] font-normal">
               Meet people from all over the world, discover new friends
             </p>
           </div>

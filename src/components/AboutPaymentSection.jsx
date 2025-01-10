@@ -3,7 +3,12 @@ import Image from "next/image";
 import PaymentCards from "./PaymentCards";
 
 const paymentProcess = [
-  { number: 1, percentage: "10%", text: "pay when booking", progress: 10 },
+  {
+    number: 1,
+    percentage: "10%",
+    text: "pay when booking",
+    progress: 10,
+  },
   {
     number: 2,
     percentage: "40%",
@@ -20,8 +25,8 @@ const paymentProcess = [
 
 const AboutPaymentSection = () => {
   return (
-    <section className="relative bg-[#062949]">
-      <div className="absolute top-0 bottom-0 right-0 w-full mx-auto">
+    <section className="relative bg-greenVogue950 ">
+      <div className="absolute top-0 bottom-0 right-0 w-full mx-auto z-[1]">
         <Image
           src="/about_payment/Tekstura.svg"
           layout="fill"
@@ -29,7 +34,7 @@ const AboutPaymentSection = () => {
           alt="Background Texture"
         />
       </div>
-      <div className="flex flex-col justify-center items-center gap-[115px] pt-[93px]">
+      <div className="flex flex-col justify-center items-center gap-[115px] pt-[93px] relative z-10">
         <h2 className="text-[46px] leading-none font-semibold text-center">
           Flexible payment
         </h2>
@@ -38,10 +43,10 @@ const AboutPaymentSection = () => {
             <PaymentCards key={index} {...payment} />
           ))}
         </div>
-        <p className="text-center text-[14px] leading-[22px] mb-[33px] text-[#DCDCDC]">
+        <p className="text-center text-[14px] leading-[22px] mb-[33px] text-white200">
           NOTE: Only applies to bookings made a minimum of 95 days before the
-          trip. For bookings made within 95 days before the trip, see our{" "}
-          <span className="text-[#33AFFD]">Terms and conditions</span>.
+          trip. For bookings made within 95 days before the trip, see our
+          <span className="text-blueVogue400">Terms and conditions</span>.
         </p>
       </div>
     </section>

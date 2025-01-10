@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Bill = ({ children }) => {
   return (
-    <div className="w-[56px] h-[56px] bg-[#DBFDEC] relative rounded-full flex items-center justify-center">
+    <div className="w-[56px] h-[56px] bg-emerald-100 relative rounded-full flex items-center justify-center">
       <Image
         width={34}
         height={21}
@@ -13,7 +13,7 @@ const Bill = ({ children }) => {
       <div className="absolute inset-0 flex items-center justify-center">
         <p
           className="
-            text-[#1DC072]
+            text-emerald500
             text-base
             align-middle
             font-semibold

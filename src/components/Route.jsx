@@ -19,14 +19,14 @@ const Route = ({ title, imgUrl }) => {
         <div className="pt-[19px]">
           <div className="mb-[21px] flex items-center gap-[20px] justify-between">
             <p className="text-base font-normal leading-[1.3]">Party</p>
-            <div className="w-[177px] h-[10px] relative overflow-hidden rounded-full bg-[#ffffff]">
-              <div className="w-[50%] h-[10px] bg-[#33AFFD]"></div>
+            <div className="w-[177px] h-[10px] relative overflow-hidden rounded-full bg-white">
+              <div className="w-[50%] h-[10px] bg-blueVogue400"></div>
             </div>
           </div>
           <div className="flex items-center gap-[20px] justify-between">
             <p className="text-base  font-normal leading-[1.3]">Adventure</p>
-            <div className="w-[177px] h-[10px] relative overflow-hidden rounded-full bg-[#ffffff]">
-              <div className="w-[50%] h-[10px] bg-[#33AFFD]"></div>
+            <div className="w-[177px] h-[10px] relative overflow-hidden rounded-full bg-white">
+              <div className="w-[50%] h-[10px] bg-blueVogue400"></div>
             </div>
           </div>
         </div>

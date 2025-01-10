@@ -5,6 +5,16 @@
 :root {
   --greenVogue950: #062949;
   --greenVogue900: #094371;
+  --blueVogue400: #33affd;
+  --blueVogue200: #b8e1ff;
+  --emerald500: #1dc072;
+  --emerald100: #dbfdec;
+  --darkBlue: #082a44;
+  --yellow: #ffd60a;
+  --background: #ecfbff;
+  --white100: #efefef;
+  --white200: #dcdcdc;
+  --gray600: #656565;
 }
 
 /* Reset CSS */
@@ -40,15 +50,6 @@ header {
   right: 0;
   margin: 0 auto;
   z-index: 2;
-}
-
-.header-button {
-  letter-spacing: 1.22px;
-  padding: 10px 16px;
-  color: #062949;
-  background-color: #ffd60a;
-  border-radius: 10px;
-  font-weight: 500;
 }
 
 nav {

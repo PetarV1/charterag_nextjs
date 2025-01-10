@@ -11,7 +11,7 @@ const cardsData = [
 
 const WelcomeSection = () => {
   return (
-    <section className="welcome-section bg-[#062949]">
+    <section className="welcome-section bg-greenVogue950">
       <div className="container max-[1216px]:px-14">
         <div className="reviews flex max-lg:flex-col max-lg:gap-10 justify-between items-center pt-20 pb-14">
           <div className="flex items-center gap-[33px] h-[44px]">

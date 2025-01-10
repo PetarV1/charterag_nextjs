@@ -51,7 +51,7 @@ const Testimonials = () => {
         height={796}
       />
       {/* Testimonials */}
-      <div className="absolute overflow-hidden bottom-[147px]  w-[565px] right-0 text-[#062949]">
+      <div className="absolute overflow-hidden bottom-[147px]  w-[565px] right-0 text-greenVogue950">
         <div className="text-3xl tracking-[-0.64px] leading-[105%] font-normal">
           Our guests loved it!
         </div>
@@ -76,7 +76,7 @@ const Testimonials = () => {
                   width={40}
                   alt="Avatar Image"
                 />
-                <p className="text-sm h-[10px] text-[#082A44] leading-[22px]">
+                <p className="text-sm h-[10px] text-darkBlue leading-[22px]">
                   {testimonial.name}
                 </p>
               </div>
@@ -111,7 +111,7 @@ const Testimonials = () => {
             <button
               key={index}
               className={`w-[22px] h-[9px] rounded-[10px] transition-all ${
-                currentIndex === index ? "bg-white w-[33px]" : "bg-[#DCDCDC]"
+                currentIndex === index ? "bg-white w-[33px]" : "bg-white200"
               }`}
               onClick={() => goToSlide(index)}
             />

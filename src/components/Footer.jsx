@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <section className="bg-greenVogue950">
+    <section className="bg-greenVogue950 text-white">
       <div className="max-w-[1440px] pt-[68px] pl-[172px] pb-[64px] pr-[170px] mx-auto ">
         <div className="flex justify-between">
           <Image
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-[90px] flex justify-between mb-[82px]">
-          <div className="flex gap-[120px]">
+          <div className="flex gap-[120px] ">
             <div className="first-section">
               <p className="text-[14px] leading-[130%] font-semibold mb-[22px]">
                 Programs

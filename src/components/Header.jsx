@@ -15,7 +15,9 @@ const Header = () => {
         <Link href="/blog">Blog</Link>
         <Link href="/faq">FAQ</Link>
       </nav>
-      <button className="header-button">BOOK NOW</button>
+      <button className="py-[10px] px-[16px] text-greenVogue950 bg-yellow rounded-[10px] font-medium">
+        BOOK NOW
+      </button>
     </header>
   );
 };
