@@ -33,11 +33,11 @@ const SocialMediaSection = () => {
             Check Charterag
             <br /> off your bucket list
           </h3>
-          <p className="text-center h-[32px] text-base leading-[130%]">
+          <p className="text-center h-[32px] text-base leading-[130%] text-[#062949]">
             Lorem ipsum dolor sit amet consectetur.
             <br /> Tellus lectus non purus odio amet
           </p>
-          <div className="mt-[37px] flex items-center gap-3 mx-[82px]">
+          <div className="mt-[37px] flex items-center gap-3 mx-[82px] ">
             {/* Left button */}
             <div className="py-1 px-6 flex-col cursor-pointer socialmediabtnshadow items-center justify-center rounded-[10px] bg-[#FFD60A]">
               <div className="flex items-center w-[74px] h-[36px] justify-center p-[10px] text-[#062949]">

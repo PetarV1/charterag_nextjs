@@ -4,13 +4,13 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="hero-section">
-      {/* <video
+      <video
         src={require("../../public/bgvideo.mp4")}
         autoPlay
         muted
         loop
         className="video"
-      /> */}
+      />
       <div className="video-overlay"></div>
       <div className="hero-text">
         <div className="title flex flex-col items-center">

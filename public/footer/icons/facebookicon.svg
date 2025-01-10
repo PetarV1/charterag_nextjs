@@ -1,0 +1,20 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="25" fill="none"/>
+<g id="Homepage" clip-path="url(#clip0_1_2)">
+<rect width="1440" height="9086" transform="translate(-1193 -8732)" fill="none"/>
+<g id="Footer">
+<rect id="Rectangle 543" x="-1193" y="-215.497" width="1443" height="570" fill="none"/>
+<g id="item">
+<rect x="-8" y="-7.49707" width="40" height="40" rx="20" fill="none"/>
+<g id="social">
+<path id="facebook" fill-rule="evenodd" clip-rule="evenodd" d="M10.3428 9.83691V7.70293C10.3428 7.69606 10.3428 7.68846 10.3428 7.68016C10.3416 7.21148 10.3343 4.50293 13.6291 4.50293H16V7.70293H13.9428C13.802 7.68555 13.6612 7.73613 13.5609 7.84016C13.4606 7.94419 13.4118 8.09017 13.4286 8.23626V9.83691H16L15.4857 13.0369H13.4286V20.5029H10.3428V13.0369H8.79999V9.83691H10.3428Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_2">
+<rect width="1440" height="9086" fill="white" transform="translate(-1193 -8732)"/>
+</clipPath>
+</defs>
+</svg>
