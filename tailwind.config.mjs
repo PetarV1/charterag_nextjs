@@ -18,6 +18,7 @@ const config = {
         emerald500: "var(--emerald500)",
         emerald100: "var(--emerald100)",
         gray600: "var(--gray600)",
+        gray500: "var(--gray500)",
         white100: "var(--white100)",
         blueVogue200: "var(--blueVogue200)",
       },

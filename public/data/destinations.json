@@ -1,0 +1,54 @@
+[
+  {
+    "routeHighlights": [
+      {
+        "text": "Where the sea meets the mountains. Sail the Bay of Kotor, often called Europe’s most southernmost fjord. Towering peaks and a rocky coastline dotted with charming waterside towns will leave you breathless.",
+        "title": "Fjord Like Bays",
+        "imgUrl": "/destinationspage/fjord.png"
+      },
+      {
+        "text": "Perast, Kotor, Tivat, Budva, Sveti Stefan…Montenegro is full of traditional Mediterranean coastal towns where locals still live with the nature. Sustainable tourism, local way of life.",
+        "title": "Nostalgic Coastal Towns",
+        "imgUrl": "/destinationspage/coastalTown.png"
+      },
+      {
+        "text": "Summer Vibes at it’s best. The most amazing Montenegrin beaches, cocktails and live DJs. Dance the night away.",
+        "title": "Beach Parties",
+        "imgUrl": "/destinationspage/beachParty.png"
+      },
+      {
+        "text": "Relax and enjoy swimming pool area, gym, yoga, massages and saunas in the freshly opened, chic, Lazure Marina. This traditional marina has everything you wish for, from fine dining restaurants to burger bars, cocktails and freshly squeezed fruit stands.",
+        "title": "Wellness Oasis",
+        "imgUrl": "/destinationspage/wellness.png"
+      },
+      {
+        "text": "Is there anything better than sailing and having fun with your mates? Get behind the helm, pull ropes, switch sides and most important, have fun. On SailWeek there are no losers. Everybody wins!!!",
+        "title": "Charterag Regatta",
+        "imgUrl": "/destinationspage/regatta.png"
+      },
+      {
+        "text": "Hike the peak of Lovcen mountain or catch a taxi to the top, for the most spectacular view of the surrounding mountains, postcard perfect cliffs and romantic bays.",
+        "title": "Mountain Views",
+        "imgUrl": "/destinationspage/mountainViews.png"
+      }
+    ],
+    "id": "1",
+    "name": "Mountain Escape",
+    "description": "Enjoy a relaxing getaway in the mountains.",
+    "images": ["/images/mountain1.jpg", "/images/mountain2.jpg"],
+    "routeType": "Party route",
+    "heroTitle": "The best stories are yet to be told",
+    "routeName": "Dubrovnik party route",
+    "rating": "4.9",
+    "reviews": "461",
+    "price": "€1136",
+    "description1": "From mountains and canyons to fjord-like bays, nostalgic old towns to most stunning beaches. Get to now Croatia’s twin sister – Montenegro",
+    "description2": "Walk the medieval streets of Kotor, dine the most amazing seafood in the Fishermans village. Feel like a millionaire in Porto Montenegro, the most luxurious marina in this part of the World. Visit nostalgic old towns Perast, Risan and Herceg Novi. Hike mountains in Kotor. Get wild in Budva and Tivat. Relax in freshly opened, chic Lazure marina."
+  },
+  {
+    "id": "2",
+    "name": "Beach Paradise",
+    "description": "Feel the sand between your toes.",
+    "images": ["/images/beach1.jpg", "/images/beach2.jpg"]
+  }
+]

@@ -15,6 +15,7 @@
   --white100: #efefef;
   --white200: #dcdcdc;
   --gray600: #656565;
+  --gray500: #7c7c7c;
 }
 
 /* Reset CSS */
@@ -40,7 +41,6 @@ body a {
 /* Header, default layout */
 
 header {
-  position: absolute;
   display: flex;
   max-width: 1100px;
   background-color: transparent;
@@ -50,11 +50,6 @@ header {
   right: 0;
   margin: 0 auto;
   z-index: 2;
-}
-
-nav {
-  font: 400 1rem;
-  line-height: 130%;
 }
 
 /* Hero Section */
@@ -167,4 +162,34 @@ nav {
 
 .socialmediabtnshadow {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* DESTINATIONS PAGE */
+
+.destinationNav a {
+  color: var(--greenVogue950);
+}
+
+.image-overlay {
+  background: linear-gradient(0deg, #213553 20.3%, rgba(33, 53, 83, 0) 54.56%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box-shadow {
+  box-shadow: 2px 2px 6px 0px rgba(72, 75, 87, 0.06),
+    16px 16px 32px 0px rgba(92, 108, 123, 0.1);
+}
+
+.button-shadow {
+  box-shadow: 0px 2px 6px 0px rgba(37, 51, 102, 0.16),
+    0px 16px 32px 0px rgba(50, 90, 137, 0.2);
+}
+
+.route-drop-shadow {
+  filter: drop-shadow(16px 16px 32px rgba(92, 108, 123, 0.1))
+    drop-shadow(2px 2px 6px rgba(72, 75, 87, 0.06));
 }

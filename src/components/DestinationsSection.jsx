@@ -13,7 +13,7 @@ const routesData = [
 const DestinationsSection = () => {
   return (
     <section className="bg-background destinations-section">
-      <div className=" max-w-[1440px] w-full mx-auto relative overflow-hidden">
+      <div className="max-w-[1440px] w-full mx-auto relative overflow-hidden">
         <div className="absolute top-[1418px] bottom-[600px] z-[1] w-full mx-auto">
           <Image
             src="/Tekstura.svg"
