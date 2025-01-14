@@ -1,6 +1,14 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
-import AccordionChild from "./AccordionChild";
+import SingleAccordion from "./SingleAccordion";
+
+const accordions = [
+  { text: "abc" },
+  { text: "abc" },
+  { text: "abc" },
+  { text: "abc" },
+];
 
 const accordionData = [
   {
@@ -43,7 +51,7 @@ const accordionData = [
 
 const ChooseRouteSection = () => {
   return (
-    <section className="max-w-[1010px] mx-auto flex flex-col items-center gap-20 mt-[169px] mb-[111px]">
+    <section className="max-w-[1010px] mx-auto flex flex-col items-center gap-20 mt-[169px]">
       {/* Title */}
       <div className="title w-[446px] mx-auto flex flex-col items-center gap-6">
         <div className="flex flex-col items-center self-stretch gap-[17px]">
@@ -57,81 +65,17 @@ const ChooseRouteSection = () => {
         </p>
       </div>
       {/* Accordions */}
-      <div className="routes-desc h-[685px] self-stretch bg-background rounded-[10px] outline outline-green-600 outline-solid">
+      <div className="routes-desc flex flex-col gap-[25px] self-stretch bg-background rounded-[10px]">
         {/* Single Accordion */}
-        <aside className="single-accordion bg-blueVogue200 rounded-[10px]">
-          {/* Heading */}
-          <div className="flex w-full items-center justify-between py-[19px] pl-8 pr-[29px]">
-            <div className="w-[189.432px] h-[26.587px] flex items-center">
-              <h4 className="text-[18px] font-semibold leading-[120%] text-green-950">
-                Ultra Route
-              </h4>
-            </div>
-            <button>
-              <Image
-                height={24}
-                width={24}
-                src="/destinationspage/chevron-down.svg"
-                alt="Arrow Down"
-              />
-            </button>
-          </div>
-
-          <div className="w-[1010px] h-[352px] pb-16 px-8 flex flex-col items-start gap-[10px] rounded-[10px]">
-            <div className="flex items-end gap-[69px]">
-              <Image
-                width={406}
-                height={276}
-                src="/destinationspage/ultranew.png"
-                alt="Ultra"
-              />
-              <div className="w-[430px] h-[276px] grid grid-cols-2 gap-x-[49.85px] gap-y-[27px] items-center">
-                {accordionData.map((data, index) => {
-                  return (
-                    <AccordionChild
-                      text={data.text}
-                      progress={data.progress}
-                      key={index}
-                    />
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        </aside>
-        <div className="flex w-[1010px] h-[60px] py-4 px-6 justify-between items-center rounded-[10px] bg-blueVogue200 mt-[39px]">
-          <p className="text-greenVogue950 text-[18px] font-semibold leading-[120%] flex-1">
-            Party Route
-          </p>
-          <Image
-            height={24}
-            width={24}
-            src="/destinationspage/chevron-down.svg"
-            alt="Arrow Down"
-          />
-        </div>
-        <div className="flex w-[1010px] h-[60px] py-4 px-6 justify-between items-center rounded-[10px] bg-blueVogue200 mt-[25px]">
-          <p className="text-greenVogue950 text-[18px] font-semibold leading-[120%] flex-1">
-            Party Route
-          </p>
-          <Image
-            height={24}
-            width={24}
-            src="/destinationspage/chevron-down.svg"
-            alt="Arrow Down"
-          />
-        </div>
-        <div className="flex w-[1010px] h-[60px] py-4 px-6 justify-between items-center rounded-[10px] bg-blueVogue200 mt-[25px]">
-          <p className="text-greenVogue950 text-[18px] font-semibold leading-[120%] flex-1">
-            Party Route
-          </p>
-          <Image
-            height={24}
-            width={24}
-            src="/destinationspage/chevron-down.svg"
-            alt="Arrow Down"
-          />
-        </div>
+        {accordions.map((accordion, index) => {
+          return (
+            <SingleAccordion
+              key={index}
+              accordion={accordion}
+              accordionData={accordionData}
+            />
+          );
+        })}
       </div>
     </section>
   );

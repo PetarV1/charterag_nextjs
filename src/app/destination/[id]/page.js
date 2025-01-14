@@ -1,6 +1,9 @@
 import Image from "next/image";
 import RouteHighlights from "@/components/RouteHighlights";
 import ChooseRouteSection from "@/components/ChooseRouteSection";
+import ChooseCrewSection from "@/components/ChooseCrewSection";
+import PayAndSailSection from "@/components/PayAndSailSection";
+import CallToAction from "@/components/CallToAction";
 
 const routeInfo = [
   {
@@ -116,7 +119,7 @@ export default async function Page({ params }) {
           </div>
 
           {/* Paragraphs */}
-          <div className="flex flex-col h-[217px] w-[633px] gap-[38px] items-start pb-[25px] pt-[64px] relative z-10">
+          <div className="flex flex-col h-[306px] w-[803px] gap-[38px] items-start pb-[25px] pt-[64px] pl-[170px] relative z-10">
             <p className="text-[18px] leading-[120%] text-greenVogue950">
               {destination.description1}
             </p>
@@ -126,6 +129,9 @@ export default async function Page({ params }) {
           </div>
           <RouteHighlights destination={destination} />
           <ChooseRouteSection />
+          <ChooseCrewSection />
+          <PayAndSailSection />
+          <CallToAction />
         </div>
       </section>
     </>

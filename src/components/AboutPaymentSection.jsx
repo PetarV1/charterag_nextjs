@@ -40,7 +40,15 @@ const AboutPaymentSection = () => {
         </h2>
         <div className="flex items-start justify-center gap-[64px] pb-[121px]">
           {paymentProcess.map((payment, index) => (
-            <PaymentCards key={index} {...payment} />
+            <PaymentCards
+              key={index}
+              {...payment}
+              bgColor="white"
+              iconColor="emerald100"
+              secondaryColor="gray600"
+              barColor="emerald500"
+              barColorSec="white100"
+            />
           ))}
         </div>
         <p className="text-center text-[14px] leading-[22px] mb-[33px] text-white200">

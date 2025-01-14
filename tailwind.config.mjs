@@ -11,6 +11,7 @@ const config = {
         greenVogue950: "var(--greenVogue950)",
         greenVogue900: "var(--greenVogue900)",
         blueVogue400: "var(--blueVogue400)",
+        blueVogue100: "var(--blueVogue100)",
         yellow: "var(--yellow)",
         background: "var(--background)",
         darkBlue: "var(--darkBlue)",
