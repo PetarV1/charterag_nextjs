@@ -8,6 +8,7 @@ const sliderData = [
       { image: "/destinationspage/image_slider2.png" },
     ],
     title: "Solo",
+    CTAtext: "Compare Cabins",
     description:
       "Book a single spot and share a bunk bed cabin with a person of the same gender. We have a lot of single travelers just like you.",
   },
@@ -17,6 +18,7 @@ const sliderData = [
       { image: "/destinationspage/image_slider2.png" },
     ],
     title: "Solo",
+    CTAtext: "Compare Yachts",
     description:
       "Book a single spot and share a bunk bed cabin with a person of the same gender. We have a lot of single travelers just like you.",
   },
@@ -26,6 +28,7 @@ const sliderData = [
       { image: "/destinationspage/image_slider2.png" },
     ],
     title: "Solo",
+    CTAtext: "About Us",
     description:
       "Book a single spot and share a bunk bed cabin with a person of the same gender. We have a lot of single travelers just like you.",
   },
@@ -47,7 +50,7 @@ const ChooseCrewSection = () => {
         </p>
       </div>
       {sliderData.map((data, index) => {
-        return <ImageSlider data={data} key={index} />;
+        return <ImageSlider data={data} key={index} index={index + 1} />;
       })}
     </section>
   );

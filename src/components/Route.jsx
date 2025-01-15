@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-const Route = ({ title, imgUrl }) => {
+const Route = ({ title, imgUrl, index }) => {
   return (
     <div className="w-100% rounded-xl overflow-hidden h-[404px] relative">
       <Image src={imgUrl} alt={title} layout="fill" />
@@ -11,10 +12,21 @@ const Route = ({ title, imgUrl }) => {
           <p className="text-[20px] leading-[1.2] font-normal">
             From €710/person
           </p>
-          <div className="flex items-center gap-[5.65px]">
-            <p className="text-[28px] font-semibold leading-none">{title}</p>
-            <Image src="/Chevron.svg" alt="Chevron" width={24} height={24} />
-          </div>
+
+          <Link href={`/destination/${index}`}>
+            <div className="group flex items-center gap-[5.65px] transition-all duration-300">
+              <p className="text-[28px] font-semibold leading-none group-hover:text-blueVogue400 transform transition-all group-hover:scale-105">
+                {title}
+              </p>
+              <Image
+                src="/Chevron.svg"
+                alt="Chevron"
+                width={24}
+                height={24}
+                className="transition-transform duration-300 group-hover:translate-x-2 group-hover:rotate-90"
+              />
+            </div>
+          </Link>
         </div>
         <div className="pt-[19px]">
           <div className="mb-[21px] flex items-center gap-[20px] justify-between">

@@ -36,7 +36,12 @@ const DestinationsSection = () => {
           </div>
           <div className="pt-[60px] grid gap-y-[78px] mb-[176px]">
             {routesData.map((route, index) => (
-              <Route key={index} title={route.title} imgUrl={route.imgUrl} />
+              <Route
+                key={index}
+                title={route.title}
+                imgUrl={route.imgUrl}
+                index={index + 1}
+              />
             ))}
           </div>
         </div>
